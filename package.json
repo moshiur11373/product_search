@@ -1,0 +1,26 @@
+{
+  "name": "product_search",
+  "version": "1.0.0",
+  "description": "Search product by keyword; compare and get at lowest price",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshiur11373/product_search.git"
+  },
+  "author": "Moshiur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moshiur11373/product_search/issues"
+  },
+  "homepage": "https://github.com/moshiur11373/product_search#readme",
+  "dependencies": {
+    "bestbuy": "^1.1.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "walmart": "0.0.4"
+  }
+}
